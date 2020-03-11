@@ -5,7 +5,6 @@ import requests
 from urllib.request import urlopen
 from bs4 import BeautifulSoup
 
-
 # Set our initial page to open:
 url = "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm"
 html = urlopen(url)
@@ -267,11 +266,3 @@ plt.savefig('Federal funds rate ' + Year + "-" + Month)
 
 # Finally display our plots:
 plt.show()
-
-
-
-
-
-
-
-
